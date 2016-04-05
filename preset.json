@@ -1,0 +1,16 @@
+{
+    "words": {
+        "ERROR": "color: red;",
+        "WARN": "color: orange;",
+        "INFO": "color: cyan;"
+    },
+    "lines": {
+        "ERROR": "font-weight: bold;"
+    },
+    "replace": {
+        "^(\\S*)\\s+(\\S*)": {
+            "flags": "i",
+            "text": "<span style='color: grey;'>$1</span> <b>$2</b>"
+        }
+    }
+}
